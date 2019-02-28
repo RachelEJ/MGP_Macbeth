@@ -1,0 +1,237 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #080F0F;
+}
+
+html {
+    background-color: #333;
+}
+
+h1 {
+    font-size: 3vw;
+    text-align: center;
+    padding: 0.5vw 0 0.5vw 0;
+    border-bottom: 0.35vw solid #415A77;
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+h2 {
+    font-family: 'Righteous', cursive;
+    font-size: 2.5vw;
+    margin: 0;
+    border-bottom: 0.35vw solid #415A77;
+    padding-bottom: 1vw;
+    text-align: left;
+}
+
+h5 {
+    font-size: 1.5vw;
+    margin: 0;
+    font-weight: bold;
+    
+}
+
+p {
+    font-size: 1.15vw;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/** CONTENT DIVS **/
+
+#gt {
+    background-color: #A0C9D3;
+    width: 100%;
+}
+
+.rcol {
+    display: inline-block;
+    width: 18vw;
+    float: right;
+    background-color: #A0C9D3;
+    margin: 2.5vw 11vw 0 0;
+    padding: 1vw 2vw 1vw 2vw;
+    border-radius: 12%;
+}
+
+.lcol {
+    display: inline-block;
+    width: 40vw;
+    margin: 2.5vw 0 2.5vw 11vw;
+    padding: 1vw 2vw 2vw 2vw;
+    background-color: #A0C9D3;
+    border-radius: 9%;
+}
+
+
+/** CONTENT IN THE DIVS **/
+
+#profilepic {
+    width: 100%;
+    border-radius: 25%;
+    border: 1px solid #415A77;
+}
+
+#name {
+    font-size: 2vw;
+    text-align: center;
+}
+
+#small {
+    text-align: center;
+    font-size: 0.85vw;
+    margin: 0.5vw 0 0.5vw 0;
+}
+
+#desc {
+    margin-top: 1.25vw;
+    font-size: 1.15vw;
+}
+
+#contact {
+    -webkit-padding-start: 0px;
+    margin: 0;
+}
+
+#contact li {
+    text-align: left;
+    margin: 1vw 0 1vw 0;
+}
+
+.acon {
+    font-size: 1.5vw;
+}
+
+.dct {
+    width: 40vw;
+    border: 1px solid #415A77;
+}
+
+/** MGP Page **/
+
+.mgp {
+    width: 45vw;
+    float: center;
+    margin: 2.5vw auto;
+    padding: 1vw 2vw 2vw 2vw;
+    background-color: #A0C9D3;
+    border-radius: 9%;
+}
+
+#mgphead {
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+#mgppic {
+    width: 100%;
+}
+
+.bd {
+    margin: 0;
+    font-size: 2vw;
+    text-align: center;
+}
+
+.intro {
+    text-indent: 2vw;
+}
+
+#sig {
+    margin-top: 0;
+}
+
+#ps {
+    margin-top: 2vw;
+    text-align: center;
+    color: #333;
+}
+
+.bdesc {
+    margin: 0.5vw 0 0 0;
+    font-size: 1.75vw;
+    text-align: center;
+}
+
+#mtoc {
+    list-style: decimal;
+    margin: 1vw 0 0 11vw;
+    padding: 0 0 0 2vw;
+}
+
+.tocli {
+    margin: 0;
+    font-size: 1.55vw;
+}
+
+.tocdesc {
+    margin: 0 0 1vw 0;
+    font-size: 1vw;
+}
+
+#mlist {
+    padding: 0;
+}
+
+.mheader {
+    font-size: 1.5vw;
+    margin: 2vw 0 0 0vw;
+    list-style: none;
+}
+
+.mdesc {
+    text-indent: 2vw;
+}
+
+.extra {
+    margin: 1.5vw 0 0 1vw;
+    list-style: circle;
+    font-size: 1vw;
+}
+
+/*#mgp {*/
+/*    width: 80vw;*/
+/*    margin: 2.5vw 5vw 2.5vw 13vw;*/
+/*    padding: 1vw 2vw 2vw 2vw;*/
+/*    background-color: #A0C9D3;*/
+/*    border-radius: 9%;*/
+    
+    
+/*}*/
+
+/*#mgphead {*/
+/*    margin-top: 1vw;*/
+/*    text-align: center;*/
+/*}*/
+
+/*#mgppic {*/
+/*    width: 80vw;*/
+/*    margin: 2vw 0vw;*/
+/*}*/
+
+/*#mgpdesc {*/
+/*    font-size: 2vw;*/
+/*}*/
+
+a:hover {
+    color: #1B263B;
+}
+
+/**
+
+A0C9D3 light blue
+333333 gray
+080F0F almost black
+415A77 darker blue
+283044 dark blue
+1B263B darkest blue
+
+
+**/
+
